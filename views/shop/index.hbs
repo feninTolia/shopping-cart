@@ -1,0 +1,16 @@
+<ul class='cards-list'>
+  {{#each products}}
+      <li class='card-item'>
+        <div class='thumb'>
+          <img class='product-img' src='{{#each this}}{{this.imagePath}}{{/each}}' alt='some img' />
+        </div>
+        <div class='caption'>
+          <h3>{{#each this}}{{this.title}}{{/each}}</h3>
+          <p>{{#each this}}{{this.description}}{{/each}}</p>
+          <div class='buttons-wrapper'>
+            <a href='#' class='button button-primary'>﹩{{#each this}}{{this.price}}{{/each}}</a>
+            <a href='#' class='button button-secondary'>Buy</a></div>
+        </div>
+      </li>
+  {{/each}}
+</ul>

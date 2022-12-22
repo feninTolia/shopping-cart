@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(209, 209, 209);
+}
+img {
+  display: block;
+}
+
+a {
+  color: #5c5c5c;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header-menu {
+  justify-content: flex-end;
+  margin-left: auto;
+  padding: 20px 10px;
+  display: flex;
+  gap: 20px;
+
+  list-style: none;
+  background-color: hsl(208, 100%, 95%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header-menu--item {
+  background-color: hsl(208, 100%, 90%);
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+  transition: 250ms;
+}
+
+.header-menu--item:has(:hover, :focus) {
+  background-color: hsl(208, 100%, 80%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 3px;
+}
+
+.cards-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-item {
+  padding: 20px;
+  min-width: 300px;
+  width: 20vw;
+
+  background-color: #fff;
+
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.buttons-wrapper {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.button {
+  /* display: block; */
+  padding: 10px 20px;
+  border-radius: 10px;
+
+  color: #fff;
+  transition: 250ms;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button-primary {
+  background-color: hsl(21, 82%, 65%);
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background-color: hsl(21, 82%, 55%);
+}
+
+.button-secondary {
+  background-color: hsl(227, 52%, 48%);
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+  background-color: hsl(227, 52%, 38%);
+}
+
+.product-img {
+  width: 100%;
+  max-height: 200px;
+
+  background-color: rgb(240, 240, 120);
+
+  border-radius: 10px;
+}
+
+/* ======================== Sign Up Module =================== */
+.form-container {
+  margin: 0 auto;
+  width: 30vw;
+  padding: 20px;
+
+  background-color: rgb(212, 240, 238);
+
+  border-radius: 10px;
+  border: 1px solid hsl(177, 100%, 89%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button-submit {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 40px;
+
+  font-size: 20px;
+
+  background-color: rgb(71, 169, 71);
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button-submit:active {
+  background-color: #6c8a6d;
+}
+
+.form-control {
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+  height: 40px;
+  margin-top: 10px;
+
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.control-label {
+  display: block;
+  margin: 10px 0;
+  padding-left: 10%;
+  text-align: left;
+  font-family: sans-serif;
+}
+/* =============================== / ========================= */
+
+/* ========================  Module =================== */
+/* =============================== / ========================= */
+
+/* ========================  Module =================== */
+/* =============================== / ========================= */
+
+/* ======================== Module =================== */
+/* =============================== / ========================= */
